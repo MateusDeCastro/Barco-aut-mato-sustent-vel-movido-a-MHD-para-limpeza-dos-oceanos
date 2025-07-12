@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="stylemenu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body style="background-color: #ddeff9">
+
+    <nav class="navbar navbar-expand" style="background-color: black;">
+        <div class="container text-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light" href="login.html">Login</a>
+                    </li>
+                </ul>
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light" href="#section1">Informe um problema</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container text-center pt-5">
+        <h1>Sobre o projeto</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="Texto">
+                    <p class="fs-5">Desde sua criação, no século XX, até os dias atuais, o plástico foi material que
+                        demonstrou
+                        ótimas propriedades de resistência, modelagem e de baixo custo. Estimativas indicam que em
+                        2016 foram produzidas mais de 335 milhões de toneladas deste material. Neste cenário, cerca de
+                        80% do plástico, que na maioria dos casos é mal descartado, atinge os oceanos, impactando
+                        significativamente no ecossistema pela formação de grandes ilhas de plástico, que são
+                        aglomerações do material na superfície dos oceanos. Diante das circunstâncias, faz-se
+                        necessário o investimento em ações mais sustentáveis para preservar ecossistema marinho. O
+                        presente projeto busca automatizar uma plataforma móvel controlada por uma placa de ESP32, que
+                        se movimenta utilizando a tecnologia de magneto hidrodinâmica (MHD) e alimentado por radiação
+                        solar, sem emissão de gases do efeito estufa e com mínimo impacto no ecossistema marítimo. A
+                        abordagem de baixo custo reflete a preocupação de tornar a solução acessível e viável. A
+                        automação não apenas reduz os investimentos iniciais, como também a mão de obra constante de
+                        manutenção. A integração de uma rede de coleta acoplada na parte traseira do autônomo é uma
+                        prática para a remoção dos resíduos plásticos sobre a água. Ao agir como uma barreira física,
+                        a rede tem a capacidade de capturar uma ampla variedade de resíduos, contribuindo assim para a
+                        limpeza dos oceanos. Juntamente incluiremos um emissor de ondas sonoras à frente da rede, com o
+                        intuito de afastar os animais marinhos.</p>
+                </div>
+            </div>
+            <div class="col-md-4 pt-5">
+                <img src="ImgBarco1.jpg" class="Imagem">
+            </div>
+        </div>
+    </div>
+    <section id="section1">
+        <div class="container text-center pt-5">
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label fs-4">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label fs-4">Problema</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <footer class="container-fluid bg-muted text-center pt-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    Desenvolvedores
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Guilherme Henrique Moreira
+                </div>
+                <div class="col">
+                    Mateus de Castro Farah Aranha
+                </div>
+                <div class="col">
+                    Felipe Dalan do Passos
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    guilherme.moreira@alu.paulinia.sp.gov.br
+                </div>
+                <div class="col">
+                    mateus.aranha@alu.paulinia.sp.gov.br
+                </div>
+                <div class="col">
+                    felipe.passos@alu.paulinia.sp.gov.br
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
